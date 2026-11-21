@@ -170,5 +170,4 @@ Ten sam tekst, ten sam podział, krok okna 1, `batch_size = 32`. W komórkach: p
 3. Długość okna prawie nie zmienia liczby par (maks. 0,05% w treningu i 0,4% w walidacji i teście dla `SEKW = 320`), ale proporcjonalnie zwiększa liczbę pozycji do obliczenia w epoce, więc o wyborze `SEKW` zadecyduje koszt epoki i jakość modelu.
 4. Rozkład znaków jest skośny (spacja 15%, 20 znaków = 83%), więc jakość modelu należy oceniać stratą i perplexity, nie samą dokładnością.
 
-**Kierunki poprawy:** usunąć z korpusu nagłówek, numer ISBN i gwiazdki wyróżnień; dodać inne polskie teksty (np. inne powieści lub artykuły), żeby ocena obejmowała więcej niż jednego autora, i wtedy przypisywać całe dokumenty do zbiorów; zachować zbiór treningowy, podział i słownik (`dane_lab06.npz`, `slownik_lab06.json`) do zajęć 7.
 
