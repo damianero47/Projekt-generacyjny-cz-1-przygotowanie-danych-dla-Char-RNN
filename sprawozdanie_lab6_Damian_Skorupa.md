@@ -121,7 +121,7 @@ Pary o znanym indeksie: trening nr 309 055 `'żkę, potem lewą nóżkę, potem 
 
 ### 3.4. Najczęstsze znaki w treningu
 
-![Najczęstsze znaki w zbiorze treningowym]<img width="1500" height="630" alt="top_znaki" src="https://github.com/user-attachments/assets/3da6f86f-f52d-4a3b-b411-f95e3e1b7e61" />
+Najczęstsze znaki w zbiorze treningowym<img width="1500" height="630" alt="top_znaki" src="https://github.com/user-attachments/assets/3da6f86f-f52d-4a3b-b411-f95e3e1b7e61" />
 
 
 Spacja stanowi 15,19% znaków (93 892), następnie a (7,14%), i (6,83%), e (5,99%), o (5,51%), z (4,49%), n (4,00%). Z polskich liter w pierwszej dwudziestce jest tylko **ł** (2,13%, 13 186). 20 najczęstszych znaków pokrywa łącznie ok. 82,7% treningu, a znak nowej linii (1,24%) się w niej nie mieści.
@@ -139,7 +139,7 @@ Ten sam tekst, ten sam podział, krok okna 1, `batch_size = 32`. W komórkach: p
 | 160 | 617 991 / 19 312 | 77 315 / 2 417 | 76 847 / 2 402 |
 | 320 | 617 831 / 19 307 | 77 155 / 2 412 | 76 687 / 2 397 |
 
-![Liczba par i odsetek traconych znaków w zależności od SEKW]<img width="1800" height="690" alt="pary_vs_sekw" src="https://github.com/user-attachments/assets/184c4f62-9f2a-4447-ab86-30e11db210ac" />
+Liczba par i odsetek traconych znaków w zależności od SEKW<img width="1800" height="690" alt="pary_vs_sekw" src="https://github.com/user-attachments/assets/184c4f62-9f2a-4447-ab86-30e11db210ac" />
 
 
 **Baseline:** punktem odniesienia jest zbiór bez okien, czyli liczba znaków N. Przy `SEKW = 10` pary obejmują 99,998% znaków treningu oraz 99,987% walidacji i testu.
