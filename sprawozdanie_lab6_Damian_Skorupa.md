@@ -2,7 +2,7 @@
 
 **Przedmiot:** Uczenie głębokie w systemach rozpoznawania i przetwarzania mowy
 **Zajęcia nr / temat:** 6 — Projekt generacyjny, część 1: przygotowanie danych dla Char-RNN
-**Autor / grupa:** Damian Skorupa / …
+**Autor / grupa:** Damian Skorupa / GL03
 **Data:** 21.11.2026
 
 ## 1. Cel ćwiczenia
