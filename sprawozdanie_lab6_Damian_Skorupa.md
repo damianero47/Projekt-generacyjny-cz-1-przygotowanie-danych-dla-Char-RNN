@@ -87,7 +87,7 @@ class DatasetZnakowy(Dataset):
         y = self.ids[i + 1:i + self.sekw + 1]            # przesunięcie o 1
         return torch.from_numpy(x), torch.from_numpy(y)
 ```
-
+## LINK DO GITHUBA https://github.com/damianero47/Projekt-generacyjny-cz-1-przygotowanie-danych-dla-Char-RNN/tree/main
 ## 3. Wyniki
 
 ### 3.1. Podział i liczebności (SEKW = 40, batch = 32)
